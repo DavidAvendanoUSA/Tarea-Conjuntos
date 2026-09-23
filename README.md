@@ -1,6 +1,8 @@
-# Tarea-Conjuntos
+# Tarea Conjuntos
 
-Proyecto desarrollado en Python para analizar gramáticas formales y calcular los conjuntos FIRST y FOLLOW de cada símbolo no terminal.
+Analizar gramáticas formales y calcular los conjuntos FIRST y FOLLOW de cada símbolo no terminal.
+
+---
 
 ## ¿Qué es?
 
@@ -10,6 +12,8 @@ Este repositorio contiene una pequeña herramienta que permite leer una gramáti
 - FOLLOW (Siguientes)
 
 Esto es útil en cursos de compiladores, lenguajes formales y análisis sintáctico, ya que permite estudiar cómo se derivan los símbolos dentro de una gramática libre de contexto.
+
+---
 
 ## ¿Qué hace?
 
@@ -33,6 +37,8 @@ Tarea-Conjuntos/
 ├── README.md
 └── .gitignore
 ```
+
+---
 
 ## Descripción de cada archivo
 
@@ -69,6 +75,8 @@ Segundo ejemplo de gramática con una estructura distinta. Sirve para probar que
 ### `README.md`
 Documento explicativo del proyecto con instrucciones de uso, estructura y detalles generales.
 
+---
+
 ## Requisitos
 
 - Python 3.x
@@ -83,7 +91,7 @@ Desde la terminal, escribe:
 python tarea.py gramatica.txt
 ```
 
-o, si prefieres:
+o:
 
 ```bash
 python3 tarea.py gramatica_2.txt
@@ -96,6 +104,8 @@ Ejemplo:
 ```bash
 python tarea.py gramatica.txt
 ```
+
+---
 
 ## Formato de la gramática
 
@@ -117,6 +127,8 @@ También se puede usar `ε` para representar producción vacía, por ejemplo:
 A -> ε
 ```
 
+---
+
 ## Ejemplo de uso
 
 Supongamos que ejecutas:
@@ -125,24 +137,11 @@ Supongamos que ejecutas:
 python tarea.py gramatica.txt
 ```
 
-La salida tendrá este estilo:
+La salida:
 
-```text
- gramatica
-{'S': [['A', 'B', 'uno'], ...], ...}
+<img width="950" height="554" alt="image" src="https://github.com/user-attachments/assets/4c913e81-b5e3-4ef0-aa6f-8cccd50d9a34" />
 
- primeros
-P(S) = {'dos', 'tres', 'cinco', 'uno'}
-P(A) = {'dos', 'tres', 'ε'}
-...
-
- siguientes
-S(S) = {'$'}
-S(A) = {'uno', 'seis', ...}
-...
-```
-
-Los resultados exactos dependen de la gramática ingresada.
+---
 
 ## ¿Qué son FIRST y FOLLOW?
 
@@ -170,19 +169,20 @@ FOLLOW(S) = {$}
 - El archivo de entrada debe estar codificado en UTF-8.
 - Debe pasarse correctamente la ruta o nombre del archivo como argumento.
 
-## Objetivo educativo
+---
 
-Este proyecto es ideal para aprender:
+## Objetivo
+
+Aprender:
 
 - Gramáticas libres de contexto
 - Conjuntos FIRST
 - Conjuntos FOLLOW
 - Conceptos básicos de compiladores
 
-## Autor
+---
 
-Repositorio de trabajo académico sobre análisis de gramáticas y cálculo de conjuntos FIRST/FOLLOW.
-
-## Licencia
-
-Si no se especifica otra cosa, este proyecto puede usarse como material de estudio y práctica académica.
+## Integrantes
+- David Avendaño
+- Brayan Paredes
+- Laura Niño
