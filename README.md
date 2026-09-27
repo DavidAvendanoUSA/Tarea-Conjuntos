@@ -131,15 +131,26 @@ A -> ε
 
 ## Ejemplo de uso
 
-Supongamos que ejecutas:
+- `gramatica.txt`:
+  
+  ```bash
+  python tarea.py gramatica.txt
+  ```
+  
+  La salida:
+  
+  <img width="1133" height="646" alt="image" src="https://github.com/user-attachments/assets/e2cee476-05e2-45b8-acfa-4b2c032d4449" />
 
-```bash
-python tarea.py gramatica.txt
-```
-
-La salida:
-
-<img width="950" height="554" alt="image" src="https://github.com/user-attachments/assets/4c913e81-b5e3-4ef0-aa6f-8cccd50d9a34" />
+  
+- `gramatica.txt`:
+  
+  ```bash
+  python tarea.py gramatica_2.txt
+  ```
+  
+  La salida:
+  
+  <img width="1133" height="643" alt="image" src="https://github.com/user-attachments/assets/c10fe9ac-244a-416e-9fec-093e0f54009f" />
 
 ---
 
