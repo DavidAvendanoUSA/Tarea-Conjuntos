@@ -142,7 +142,7 @@ A -> ε
   <img width="1133" height="646" alt="image" src="https://github.com/user-attachments/assets/e2cee476-05e2-45b8-acfa-4b2c032d4449" />
 
   
-- `gramatica.txt`:
+- `gramatica_2.txt`:
   
   ```bash
   python tarea.py gramatica_2.txt
